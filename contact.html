@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | New Creation Land Management</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Helvetica', Arial, sans-serif; line-height: 1.6; color: #333; }
+        .navbar { background-color: #1a3c34; padding: 15px 0; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        .navbar nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+        .navbar .logo { color: #fff; font-size: 24px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+        .navbar a { color: #fff; text-decoration: none; padding: 10px 20px; font-size: 16px; transition: background-color 0.3s; }
+        .navbar a:hover { background-color: #2e7d32; border-radius: 5px; }
+        .content { max-width: 1200px; margin: 100px auto 60px; padding: 0 20px; text-align: center; }
+        h1 { font-size: 36px; color: #1a3c34; margin-bottom: 30px; }
+        form { max-width: 600px; margin: 0 auto; text-align: left; }
+        label { font-size: 18px; display: block; margin-bottom: 5px; }
+        input, textarea { width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px; }
+        textarea { height: 150px; }
+        button { background-color: #2e7d32; color: #fff; padding: 12px 30px; border: none; border-radius: 5px; font-size: 18px; cursor: pointer; transition: background-color 0.3s; }
+        button:hover { background-color: #1a3c34; }
+        footer { background-color: #1a3c34; color: #fff; text-align: center; padding: 20px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <div class="logo">New Creation Land Management</div>
+            <div>
+                <a href="services.html">Services</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <h1>Contact Us</h1>
+        <p>Get in touch for a consultation or quote!</p>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <footer>
+        <p>© 2025 New Creation Land Management. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
