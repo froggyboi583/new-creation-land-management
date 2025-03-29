@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials | New Creation Land Management</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Helvetica', Arial, sans-serif; line-height: 1.6; color: #333; }
+        .navbar { background-color: #1a3c34; padding: 15px 0; position: fixed; width: 100%; top: 0; z-index: 1000; }
+        .navbar nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+        .navbar .logo { color: #fff; font-size: 24px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+        .navbar a { color: #fff; text-decoration: none; padding: 10px 20px; font-size: 16px; transition: background-color 0.3s; }
+        .navbar a:hover { background-color: #2e7d32; border-radius: 5px; }
+        .content { max-width: 1200px; margin: 100px auto 60px; padding: 0 20px; text-align: center; }
+        h1 { font-size: 36px; color: #1a3c34; margin-bottom: 30px; }
+        .testimonial { margin: 20px 0; padding: 20px; background: #f5f5f5; border-radius: 5px; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .testimonial p { font-size: 18px; font-style: italic; }
+        .testimonial cite { font-size: 16px; color: #2e7d32; display: block; margin-top: 10px; }
+        footer { background-color: #1a3c34; color: #fff; text-align: center; padding: 20px; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <div class="logo">New Creation Land Management</div>
+            <div>
+                <a href="services.html">Services</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <h1>What Our Clients Say</h1>
+        <div class="testimonial">
+            <p>“New Creation transformed our backyard into a stunning oasis. Professional and reliable!”</p>
+            <cite>— Jane D., Homeowner</cite>
+        </div>
+        <div class="testimonial">
+            <p>“Their team handled our commercial property with expertise and care. Highly recommend!”</p>
+            <cite>— Mark T., Business Owner</cite>
+        </div>
+    </div>
+    <footer>
+        <p>© 2025 New Creation Land Management. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
