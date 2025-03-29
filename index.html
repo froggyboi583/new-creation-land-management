@@ -3,32 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Creation Land Management</title>
+    <title>New Creation Land Management | Professional Land Solutions</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        /* Navigation */
+        .navbar {
+            background-color: #1a3c34;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .navbar .logo {
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #2e7d32;
+            border-radius: 5px;
+        }
+        /* Hero Section with Background Image */
+        .hero {
+            height: 600px;
+            background: url('/nclm.png') no-repeat center/cover; /* Replace with your image URL */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 70px;
+        }
+        .hero-content {
+            max-width: 800px;
             padding: 20px;
+            background: rgba(255, 255, 255, 0.8); /* Semi-transparent white overlay for readability */
+            border-radius: 10px;
+        }
+        .hero h1 {
+            font-size: 48px;
+            color: #1a3c34;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+        .hero .cta {
+            background-color: #2e7d32;
+            color: #fff;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .hero .cta:hover {
+            background-color: #1a3c34;
+        }
+        /* About Section */
+        .about {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
             text-align: center;
         }
-        h1 {
-            color: #2e7d32; /* A nice green for a land theme */
+        .about h2 {
+            font-size: 36px;
+            color: #1a3c34;
+            margin-bottom: 20px;
         }
-        p {
-            max-width: 600px;
-            margin: 20px auto;
+        .about p {
+            font-size: 18px;
+            max-width: 700px;
+            margin: 0 auto 40px;
         }
-        .button {
-            background-color: #2e7d32;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
+        /* Image Placeholders */
+        .image-grid {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .image-placeholder {
+            width: 350px;
+            height: 250px;
+            background-color: #b3e5fc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        /* Footer */
+        footer {
+            background-color: #1a3c34;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            margin-top: 60px;
         }
     </style>
 </head>
 <body>
-    <h1>New Creation Land Management</h1>
-    <p>Welcome! We specialize in transforming land into beautiful, sustainable spaces. From landscaping to property maintenance, we’ve got you covered.</p>
-    <a href="mailto:your-email@example.com" class="button">Contact Us</a>
+    <!-- Navigation -->
+    <div class="navbar">
+        <nav>
+            <div class="logo">New Creation Land Management</div>
+            <div>
+                <a href="#services">Services</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1>Elevating Land Management</h1>
+            <p>Delivering innovative, sustainable solutions for properties of all kinds.</p>
+            <a href="#contact" class="cta">Get Started</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about">
+        <h2>About Us</h2>
+        <p>New Creation Land Management is committed to excellence in transforming land into spaces that inspire. With expertise in landscaping, property development, and environmental care, we partner with clients to bring their visions to life—sustainably and professionally.</p>
+        <div class="image-grid">
+            <div class="image-placeholder">Image 1: Showcase Project</div>
+            <div class="image-placeholder">Image 2: Team Expertise</div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 New Creation Land Management. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
